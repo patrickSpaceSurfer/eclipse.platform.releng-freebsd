@@ -96,8 +96,8 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.net.freebsd"
-         os="freebsd"
+         id="org.eclipse.core.net.linux"
+         os="linux"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -363,9 +363,9 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.filesystem.freebsd.amd64"
-         os="freebsd"
-         arch="amd64"
+         id="org.eclipse.core.filesystem.linux.x86_64"
+         os="linux"
+         arch="x86_64"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -401,20 +401,10 @@
          fragment="true"
          unpack="false"/>
 
-<!--
    <plugin
-         id="org.eclipse.core.filesystem.freebsd.powerpc64"
-         os="freebsd"
-         arch="powerpc64"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-   <plugin
-         id="org.eclipse.core.filesystem.freebsd.powerpc64le"
-         os="freebsd"
-         arch="powerpc64le"
+         id="org.eclipse.core.filesystem.linux.ppc64le"
+         os="linux"
+         arch="ppc64le"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -422,15 +412,14 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.filesystem.freebsd.aarch64"
-         os="freebsd"
+         id="org.eclipse.core.filesystem.linux.aarch64"
+         os="linux"
          arch="aarch64"
          download-size="0"
          install-size="0"
          version="0.0.0"
          fragment="true"
          unpack="false"/>
--->
 
    <plugin
          id="org.eclipse.core.variables"
@@ -487,8 +476,8 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.security.freebsd"
-         os="freebsd"
+         id="org.eclipse.equinox.security.linux"
+         os="linux"
          download-size="0"
          install-size="0"
          version="0.0.0"
